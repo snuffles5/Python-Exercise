@@ -100,12 +100,3 @@ class DataManipulator:
                 new_list.append(element)
         return new_list
 
-
-if __name__ == '__main__':
-    path = "/Users/deni/Documents/Projects/Coding/Interviews/ProofPoint/python exercise example json[1][1][1].json"
-    dm = DataManipulator(Path(path))
-    print(dm.data)
-    dm.process_dict_data()
-    print(dm.data)
-    print(dm.processed_data)
-    dm.save_processed_data()
